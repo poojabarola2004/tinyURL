@@ -1,0 +1,163 @@
+/* -------------------
+   Global Styling
+---------------------- */
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #2b5876, #4e4376);
+    color: #eee;
+    min-height: 100vh;
+}
+
+/* -------------------
+   Navbar
+---------------------- */
+.navbar {
+    width: 100%;
+    padding: 18px 30px;
+    background: rgba(255,255,255,0.1);
+    backdrop-filter: blur(12px);
+    color: #fff;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.back-btn {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* -------------------
+   Layout
+---------------------- */
+.container {
+    width: 95%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* -------------------
+   Card
+---------------------- */
+.card {
+    background: rgba(255,255,255,0.12);
+    padding: 25px;
+    border-radius: 14px;
+    backdrop-filter: blur(16px);
+    margin-bottom: 25px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.card h2 {
+    margin-top: 0;
+}
+
+/* -------------------
+   Form Styling
+---------------------- */
+.form-group {
+    margin-bottom: 12px;
+}
+
+label {
+    font-size: 14px;
+    color: #ddd;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    background: rgba(255,255,255,0.25);
+    color: #fff;
+}
+
+/* -------------------
+   Button
+---------------------- */
+.btn {
+    padding: 10px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 6px;
+}
+
+.btn-primary {
+    background: #00d4ff;
+    color: #000;
+    font-weight: 600;
+}
+
+.btn-danger {
+    background: #ff4b4b;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #444;
+    color: white;
+}
+
+/* -------------------
+   Table Styling
+---------------------- */
+.table {
+    width: 100%;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 120px 1fr 80px 160px 200px;
+    gap: 10px;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+}
+
+.header {
+    font-weight: 700;
+    border-bottom: 2px solid rgba(255,255,255,0.4);
+}
+
+/* -------------------
+   Search Bar
+---------------------- */
+.search {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+    background: rgba(255,255,255,0.20);
+    color: white;
+}
+
+/* -------------------
+   Message
+---------------------- */
+.msg {
+    margin-top: 10px;
+    color: #00ffdd;
+}
+
+/* -------------------
+   Responsive
+---------------------- */
+@media (max-width: 750px) {
+    .row {
+        grid-template-columns: 1fr;
+    }
+}
