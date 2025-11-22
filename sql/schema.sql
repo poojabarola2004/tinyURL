@@ -1,6 +1,6 @@
 -- Create database (run as a user with create DB privileges)
-CREATE DATABASE IF NOT EXISTS tinylink;
-USE tinylink;
+CREATE DATABASE IF NOT EXISTS railway;
+USE railway;
 
 DROP TABLE IF EXISTS links;
 
